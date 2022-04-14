@@ -1,0 +1,20 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "../",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@pipes(.*)": "<rootDir>/src/pipes/$1",
+    "@users(.*)": "<rootDir>/src/modules/users/$1",
+    "@oders(.*)": "<rootDir>/src/modules/oders/$1",
+    "@auth(.*)": "<rootDir>/src/modules/auth/$1",
+    "@common(.*)": "<rootDir>/src/common/$1",
+    "@config(.*)": "<rootDir>/src/config/$1",
+    "@exception-filters(.*)": "<rootDir>/src/exception-filters/$1",
+    "@guards(.*)": "<rootDir>/src/guards/$1",
+    "@utils(.*)": "<rootDir>/src/utils/$1"
+  }
+}
